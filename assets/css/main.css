@@ -1,0 +1,75 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-image: url("../img/people-coffee-notes-tea-2.jpg");
+	background-size: cover;
+}
+
+#head {
+	text-align: center;
+	margin-top: 25vh;
+}
+
+h1 {
+	font-size: 4em;
+	color: #ff0066;
+	font-family: Ubuntu;
+}
+
+.search {
+	padding: 0;
+}
+
+#resultsHead {
+	padding-left: 5%;
+}
+
+#resultsContainer {
+	background-color: rgba(128, 128, 128, 0.5);
+	padding-left: 0;
+}
+
+#resultContainer2 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.result {
+	margin-bottom: 2%;
+}
+
+.result-item {
+	background-color: rgba(128, 128 ,128, 0.7);
+}
+
+#result-title {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+#result-title a {
+	color: #ff0066;
+}
+
+#result-url {
+	margin-bottom: 10px;
+	color: blue;
+}
+
+@media (max-width: 1200px) {
+	h1 {
+		margin-bottom: 50px;
+		font-size: 500%;
+	}
+
+	#search_button {
+		width: 100%;
+	}
+
+	.search {
+		padding: 1%;
+	}
+}

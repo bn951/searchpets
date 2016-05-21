@@ -1,0 +1,16 @@
+<div class="container" id="resultsContainer">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 id="resultsHead">Results</h1>
+		</div><!-- End of col-lg-12 -->
+	</div><!-- Enf of Row -->
+	<div class="container" id="resultContainer2">
+		<div class="row result" ng-repeat="result in results"> 	
+			<div class="col-lg-10 col-lg-offset-1 result-item">
+				<p id="result-title"><a ng-href="{{ result.url }}" target="__blank">{{ result.title }}</a></p>
+				<p id="result-url"><i>{{ result.url }}</i></p>
+				<p id="result-desc">{{ result.body }}</p>
+			</div><!-- End of col-lg-12 -->
+		</div><!-- End of row --> 
+	</div><!-- End of Container -->
+</div><!-- End of Container -->
